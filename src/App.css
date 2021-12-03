@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background: rgb(204,204,204); 
+}
+
+.mian {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+
+  width: 200px;
+  height: 200px;
+  border: 2px solid orangered;
+  border-radius:  30px;
+}
+.mian {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* .top
+{
+  padding: 50px;
+
+} */
+
+.bordering
+{
+  border: 2px solid black;
+  width: 550px;
+  height: 40px;
+  border-bottom: none;
+  border-left:none;
+  border-right:none;
+}
+.designing
+{
+  border-radius: 0 0 90px 90px;
+}
+.career
+{
+  border: 2px solid black;
+ 
+}
