@@ -23,11 +23,11 @@ const Head=()=>{
             <div class="bordering"></div> <img src={img}  class="rounded-circle  shadow-lg p-3 mb-5 bg-body rounded" style={{'top':'-80px','position':'relative','width':'150px','height':'150px'}} />
             </div>
             
-            <div style={{'padding':'50px'}} class="row justify-content-start">
+            <div style={{'padding':'50px','marginTop':'50px'}} class="row justify-content-start">
                 <span  style={{'position':'relative','top':'-170px','border':'2px solid black','width':'165px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>CAREER OBJECTIVE</span>
                 <p style={{'position':'relative','top':'-160px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking for an opportunity to serve in an influential organisation to the best of my ability as a brave,honest,hard working and dedicated person to develop effective solutions by examining my knowledge and skills.</p>
             </div>
-            <div style={{'padding':'50px'}} class="row justify-content-start">
+            <div style={{'padding':'50px','marginTop':'30px'}} class="row justify-content-start">
                 <span style={{'position':'relative','top':'-240px','border':'2px solid black','width':'210px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACADEMIC CURRICULUM</span>
                 <table style={{'position':'relative','top':'-250px'}} class="table">
                         <thead>
@@ -64,19 +64,14 @@ const Head=()=>{
                         </tbody>
                         </table>
             </div>
-            <div style={{'padding':'50px'}} class="row justify-content-start">
+            <div style={{'padding':'50px','marginTop':'20px'}} class="row justify-content-start">
                 <span style={{'position':'relative','top':'-330px','border':'2px solid black','width':'168px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>AREA OF EXPERTISE</span>
                 <p style={{'position':'relative','top':'-320px','left':'40px'}}>Programming Skills: <span>JAVA</span></p>
                 <p style={{'position':'relative','top':'-320px','left':'40px'}}>Web Technology: <span>HTML,CSS</span></p>
                 <p style={{'position':'relative','top':'-320px','left':'40px'}}>Area of Interest: <span>Web Development</span></p>
                 
             </div>
-
-            <div style={{'padding':'50px'}} class="row justify-content-start">
-                <span style={{'position':'relative','top':'-400px','border':'2px solid black','width':'173px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACADEMIC PROJECT</span>
-                <p style={{'position':'relative','top':'-382px','left':'40px'}}><span>Title: </span> ONLINE LEAVE MANAGEMENT SYSTEM </p>
-                
-            </div>
+        
         </div>
         </div>
     )
