@@ -5,7 +5,7 @@ const NextPage=()=>{
     return(
         <div >
             
-            <div style={{'paddingLeft':'60px','marginTop':'460px'}} class="row justify-content-start">
+            <div style={{'paddingLeft':'60px','marginTop':'460px'}} class="row">
                 <span style={{'position':'relative','top':'-400px','border':'2px solid black','width':'173px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACADEMIC PROJECT</span>
             </div>
         <div style={{'position':'relative','top':'-435px','padding':'60px'}}>
@@ -40,7 +40,7 @@ const NextPage=()=>{
                 </div>
         </div>
 
-         <div style={{'position':'relative','top':'-540px','paddingLeft':'60px'}} class="row justify-content-between">  
+         <div style={{'position':'relative','top':'-540px','paddingLeft':'60px'}} class="row">  
             <p style={{'position':'relative','top':'40px','border':'2px solid black','width':'230px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>CO-CURRICULAR ACTIVITIES </p>
                 <ul  style={{'padding':'60px'}}>
                     <li>Presented a paper on “EFFICIENT CACHE SUPPORTED PATH PLANNING ON ROADS“at Coimbatore Institute of Technology </li>
