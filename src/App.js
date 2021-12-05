@@ -18,6 +18,10 @@ function App() {
       <main className="mian ">
           <NextPage />
       </main>
+     <main className="mian ">
+          <NextPage1 />
+      </main>
+
 
         </div>
         </div>
