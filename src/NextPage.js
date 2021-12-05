@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 const NextPage=()=>{
     return(
         <div >
             
-            <div style={{'paddingLeft':'60px','marginTop':'460px'}} class="row">
-                <span style={{'position':'relative','top':'-400px','border':'2px solid black','width':'173px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACADEMIC PROJECT</span>
+            <div style={{'paddingLeft':'60px','marginTop':'460px'}} class="row ">
+                <span className="gradient-border" style={{'position':'relative','top':'-400px','border':'2px solid black','width':'200px','borderRadius':'20px 0 20px 0','textAlign':'center'}} id="gradient-border">ACADEMIC PROJECT</span>
             </div>
         <div style={{'position':'relative','top':'-435px','padding':'60px'}}>
             <ul class="nav nav-tabs"  id="myTab" role="tablist">
@@ -41,7 +42,7 @@ const NextPage=()=>{
         </div>
 
          <div style={{'position':'relative','top':'-540px','paddingLeft':'60px'}} class="row">  
-            <p style={{'position':'relative','top':'40px','border':'2px solid black','width':'230px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>CO-CURRICULAR ACTIVITIES </p>
+            <p className="gradient-border" style={{'position':'relative','top':'40px','border':'2px solid black','width':'300px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>CO-CURRICULAR ACTIVITIES </p>
                 <ul  style={{'padding':'60px'}}>
                     <li>Presented a paper on “EFFICIENT CACHE SUPPORTED PATH PLANNING ON ROADS“at Coimbatore Institute of Technology </li>
                     <li>Presented a paper on “BLUE EYES TECHNOLOGY” at Mahendra Engineering College </li>
