@@ -24,11 +24,11 @@ const Head=()=>{
             </div>
             
             <div style={{'padding':'50px','marginTop':'50px'}} class="row justify-content-start">
-                <span  style={{'position':'relative','top':'-170px','border':'2px solid black','width':'165px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>CAREER OBJECTIVE</span>
+                <span className="gradient-border"  style={{'position':'relative','top':'-170px','border':'2px solid black','width':'195px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>CAREER OBJECTIVE</span>
                 <p style={{'position':'relative','top':'-160px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking for an opportunity to serve in an influential organisation to the best of my ability as a brave,honest,hard working and dedicated person to develop effective solutions by examining my knowledge and skills.</p>
             </div>
             <div style={{'padding':'50px','marginTop':'30px'}} class="row justify-content-start">
-                <span style={{'position':'relative','top':'-240px','border':'2px solid black','width':'210px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACADEMIC CURRICULUM</span>
+                <span className="gradient-border" style={{'position':'relative','top':'-240px','border':'2px solid black','width':'250px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACADEMIC CURRICULUM</span>
                 <table style={{'position':'relative','top':'-250px'}} class="table">
                         <thead>
                             <tr>
@@ -65,7 +65,7 @@ const Head=()=>{
                         </table>
             </div>
             <div style={{'padding':'50px','marginTop':'20px'}} class="row justify-content-start">
-                <span style={{'position':'relative','top':'-330px','border':'2px solid black','width':'168px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>AREA OF EXPERTISE</span>
+                <span className="gradient-border" style={{'position':'relative','top':'-330px','border':'2px solid black','width':'198px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>AREA OF EXPERTISE</span>
                 <p style={{'position':'relative','top':'-320px','left':'40px'}}>Programming Skills: <span>JAVA</span></p>
                 <p style={{'position':'relative','top':'-320px','left':'40px'}}>Web Technology: <span>HTML,CSS</span></p>
                 <p style={{'position':'relative','top':'-320px','left':'40px'}}>Area of Interest: <span>Web Development</span></p>
