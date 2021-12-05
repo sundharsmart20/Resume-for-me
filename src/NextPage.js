@@ -50,6 +50,27 @@ const NextPage=()=>{
                     <li>Attended a value added course on “BUILDING BLOCKSOF JAVA” at Kongunadu College of Engineering and Technology</li>
                 </ul>
         </div>
+    <div style={{'marginTop':'-70px'}}>
+        <div style={{'position':'relative','top':'-540px','paddingLeft':'60px'}} >  
+            <p className="gradient-border" style={{'position':'relative','top':'40px','border':'2px solid black','width':'300px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>INTERNSHIP </p>
+                <ul  style={{'padding':'60px'}}>
+                    <li>Attended “Android App Development” internship for 15days on SILICON SOFTWARE SERVICES from Sep 16th 2020 to Sep 30th 2020. </li>
+                    <li>Attended “Front End Development” course for the period of one month. </li>                  
+                </ul>
+        </div>
+
+        <div style={{'position':'relative','top':'-540px','paddingLeft':'60px'}}>  
+            <p className="gradient-border" style={{'position':'relative','top':'40px','border':'2px solid black','width':'300px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACHIEVEMENT </p>
+                <ul  style={{'padding':'60px'}}>
+                    <li> Done a training on “CISCO(MODULE 1 & MODULE 2)” on a period of three months at Kongunadu college of engineering and technology. </li>              
+                </ul>
+        </div>
+    </div>
+       
+
+       
+
+
 
         </div> 
     )
