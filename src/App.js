@@ -1,6 +1,7 @@
 import './App.css';
 import Head from './Head.js'
 import NextPage from './NextPage';
+import NextPage1 from './NextPage1';
 function App() {
   return (
     <div>
@@ -18,10 +19,10 @@ function App() {
       <main className="mian ">
           <NextPage />
       </main>
-     <main className="mian ">
+
+      <main className="mian ">
           <NextPage1 />
       </main>
-
 
         </div>
         </div>
