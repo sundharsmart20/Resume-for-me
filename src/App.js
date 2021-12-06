@@ -20,9 +20,9 @@ function App() {
           <NextPage />
       </main>
 
-      <main className="mian ">
-          <NextPage1 />
-      </main>
+//       <main className="mian ">
+//           <NextPage1 />
+//       </main>
 
         </div>
         </div>
