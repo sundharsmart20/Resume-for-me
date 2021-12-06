@@ -20,6 +20,23 @@
   width: 21cm;
   height: 29.7cm; 
 }
+.mian1 {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+
+  width: 200px;
+  height: 200px;
+  border: 2px solid orangered;
+  border-radius:  30px;
+}
+.mian1 {  
+  width: 21cm;
+  height: 34.7cm; 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -53,7 +70,9 @@
 .career
 {
   border: 2px solid black;
+ 
 }
+
 .gradient-border {
 
   font-weight: bold;
