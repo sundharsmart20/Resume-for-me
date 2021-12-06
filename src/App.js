@@ -16,7 +16,7 @@ function App() {
       <main className="mian">
           <Head />
       </main>
-      <main className="mian ">
+      <main className="mian1 ">
           <NextPage />
       </main>
 
