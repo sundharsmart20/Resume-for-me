@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 const NextPage=()=>{
+    const d=new Date();
+
     return(
         <div >
             
@@ -51,7 +53,7 @@ const NextPage=()=>{
                 </ul>
         </div>
     <div style={{'marginTop':'-70px'}}>
-        <div style={{'position':'relative','top':'-540px','paddingLeft':'60px'}} >  
+        <div style={{'position':'relative','top':'-568px','paddingLeft':'60px'}} >  
             <p className="gradient-border" style={{'position':'relative','top':'40px','border':'2px solid black','width':'300px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>INTERNSHIP </p>
                 <ul  style={{'padding':'60px'}}>
                     <li>Attended “Android App Development” internship for 15days on SILICON SOFTWARE SERVICES from Sep 16th 2020 to Sep 30th 2020. </li>
@@ -59,7 +61,7 @@ const NextPage=()=>{
                 </ul>
         </div>
 
-        <div style={{'position':'relative','top':'-540px','paddingLeft':'60px'}}>  
+        <div style={{'position':'relative','top':'-645px','paddingLeft':'60px'}}>  
             <p className="gradient-border" style={{'position':'relative','top':'40px','border':'2px solid black','width':'300px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>ACHIEVEMENT </p>
                 <ul  style={{'padding':'60px'}}>
                     <li> Done a training on “CISCO(MODULE 1 & MODULE 2)” on a period of three months at Kongunadu college of engineering and technology. </li>              
@@ -67,9 +69,26 @@ const NextPage=()=>{
         </div>
     </div>
        
-
+    <div style={{'position':'relative','top':'-730px','paddingLeft':'80px'}} class="row">  
+        <p className="gradient-border" style={{'position':'relative','top':'40px','border':'2px solid black','width':'300px','borderRadius':'20px 0 20px 0','textAlign':'center'}}>PERSONAL PROFILE </p>
+            <ul  style={{'padding':'60px','list-style-type':'none'}}>
+                <li><span>Father’s Name : </span>Mr.I.Paramasivan </li>
+                <li><span>Mother’s Name : </span>Mrs.P.Venmathi </li> 
+                <li><span>Date of birth : </span>24-02-2000</li> 
+                <li><span> Nationality : </span> Indian</li>  
+                <li><span>Language known :  </span> Tamil&English</li>          
+            </ul>
+    </div>
        
-
+    <div  style={{'position':'relative','top':'-768px','padding':'60px','fontWeight':'bold'}} class="d-flex justify-content-between">
+        <div class="row">
+            <span>PLACE : </span>
+            <span>DATE : </span>
+        </div>
+        <div class="row">
+            <span>[SUNDHARESHWARAN P]</span>
+        </div>
+    </div>
 
 
         </div> 
